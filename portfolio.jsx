@@ -165,8 +165,8 @@ const AI_TOOLS = [
 ];
 
 const ABOUT_PARAGRAPHS = [
-  "I'm a natural problem-solver with a deep curiosity about what motivates people. Over 10+ years I've designed across healthcare SaaS, energy, luxury tech, recruitment, and consumer retail, bringing the same rigour and care to each. My guiding principle has always been 'what can we take away?' rather than 'what can we add?' Simple, intuitive solutions are what I'm after, always.",
-  "I believe the most important thing an AI-informed designer brings is sound judgement \u2014 knowing which problem is worth solving, and why. My work is rooted in deep product knowledge: understanding the business, the users, and the system before reaching for a solution. I use AI to accelerate the right parts of my process, but judgement, empathy, and the instinct about what will actually resonate only come from experience. They stay with me.",
+  "I have a deep curiosity about what motivates people. Over 10+ years I've designed across healthcare SaaS, energy, luxury tech, recruitment, and consumer retail, bringing the same rigour and care to each. My guiding principle has always been 'what can we take away?' rather than 'what can we add?' Simple, intuitive solutions are what I'm after, always.",
+  "I believe the most important thing an AI-informed designer can bring is sound judgement \u2014 knowing which problem is worth solving, and why. My work is rooted in deep product knowledge: understanding the business, the users, and the system before reaching for a solution. I use AI to accelerate the right parts of my process, but judgement, empathy, and the instinct about what will actually resonate only come from experience. They stay with me.",
 ];
 
 const SKILLS = [
@@ -1442,8 +1442,8 @@ export default function Portfolio() {
           }
           .section-header-center p:last-child { margin-left: auto; margin-right: auto; }
           @media (max-width: 700px) { .section-header-center { text-align: left; } .section-header-center p:last-child { margin-left: 0 !important; margin-right: 0 !important; } }
-          .hero-firstname { display: block; }
-          @media (min-width: 820px) { .hero-grid { max-width: 780px !important; } .hero-firstname { display: inline !important; } }
+          .hero-firstname { display: inline; }
+          @media (min-width: 820px) { .hero-grid { max-width: 780px !important; } }
           .about-grid { flex-direction: column !important; }
           .photo-outer { width: 260px !important; height: 260px !important; }
           .ai-grid { grid-template-columns: 1fr 1fr !important; }
@@ -1575,15 +1575,6 @@ export default function Portfolio() {
                 onMouseLeave={e => { e.currentTarget.style.background = "#1a1a1a"; e.currentTarget.style.transform = "translateY(0)"; }}>
                 Contact
               </button>
-              <a href="/Jess_Dams_CV_2025.pdf" download="Jess_Dams_CV_2025.pdf"
-                style={{ display: "inline-flex", alignItems: "center", gap: "0.45rem", background: "none", color: "#1a1a1a", border: "1.5px solid #1a1a1a", padding: "0.85rem 1.6rem", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.07em", textTransform: "uppercase", cursor: "pointer", borderRadius: 4, transition: "all 0.2s, transform 0.15s", textDecoration: "none" }}
-                onMouseEnter={e => { e.currentTarget.style.background = "#1a1a1a"; e.currentTarget.style.color = "white"; e.currentTarget.style.transform = "translateY(-1px)"; }}
-                onMouseLeave={e => { e.currentTarget.style.background = "none"; e.currentTarget.style.color = "#1a1a1a"; e.currentTarget.style.transform = "translateY(0)"; }}>
-                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" style={{ flexShrink: 0 }}>
-                  <path d="M6.5 1v8M3 6.5l3.5 3.5 3.5-3.5M1 11.5h11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                Download CV
-              </a>
             </div>
           </div>
         </div>
@@ -2088,12 +2079,6 @@ export default function Portfolio() {
                   icon: <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>,
                 },
                 {
-                  href: "tel:07448578505",
-                  label: "07448 578 505",
-                  color: "#7C3AED",
-                  icon: <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>,
-                },
-                {
                   href: "https://www.linkedin.com/in/jessica-d-1a30ba46/",
                   label: "Connect on LinkedIn",
                   color: "#0891B2",
@@ -2113,7 +2098,7 @@ export default function Portfolio() {
 
               {/* CV Download */}
               <div style={{ width: "100%", maxWidth: 420, marginTop: "0.4rem", paddingTop: "1.2rem", borderTop: "1px solid #eeeee8" }}>
-                <p style={{ fontSize: "0.7rem", color: "#aaa", fontWeight: 400, marginBottom: "0.75rem", letterSpacing: "0.04em" }}>Prefer something to read offline?</p>
+                <p style={{ fontSize: "0.78rem", color: "#555", fontWeight: 600, marginBottom: "0.75rem", letterSpacing: "0.04em" }}>Prefer something to read offline?</p>
                 <a href="/Jess_Dams_CV_2025.pdf" download="Jess_Dams_CV_2025.pdf"
                   style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#ff3e3e", color: "white", padding: "0.8rem 1.8rem", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.07em", textTransform: "uppercase", borderRadius: 4, textDecoration: "none", transition: "background 0.2s, transform 0.15s" }}
                   onMouseEnter={e => { e.currentTarget.style.background = "#d42e2e"; e.currentTarget.style.transform = "translateY(-1px)"; }}

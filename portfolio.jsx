@@ -406,10 +406,10 @@ const CASE_STUDIES = [
     challenge: {
       text: "ChilliPharm's platform gave clients total freedom over how they organised clinical trial assets, but that freedom came at a cost. Folder structures were inconsistent, file naming was ad hoc, and critical metadata fields like patient numbers and visit dates were free text, leaving them vulnerable to human error. This metadata also had to be re-entered manually for every upload, even when multiple files shared the same assessment details. The result: a system that couldn't report on its own data, couldn't integrate with external platforms, and was increasingly complex to use. A new companion app was in the works, but it quickly became clear it couldn't function without a consistent underlying data structure to speak to. The platform needed a ground-up rethink — data architecture, information hierarchy, and a UI that had fallen well behind modern standards.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_lib_1.webp", caption: "All content with folder structure to the left" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_lib_2.webp", caption: "Media viewing page" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_lib_3.webp", caption: "Uploading assets with data fields" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_lib_4.webp", caption: "Desktop only — not mobile friendly" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_lib_1.webp", caption: "All content with folder structure to the left" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_lib_2.webp", caption: "Media viewing page" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_lib_3.webp", caption: "Uploading assets with data fields" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_lib_4.webp", caption: "Desktop only — not mobile friendly" },
       ],
     },
     approach: [
@@ -426,10 +426,10 @@ const CASE_STUDIES = [
         color: "#7C3AED",
         content: "I ran collaborative sketch sessions with key stakeholders and subject matter experts, pencil and paper, getting ideas out fast before committing to anything. These sessions helped surface the core structural decisions around data architecture and information hierarchy, and built shared ownership of the direction early.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sketch_1.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sketch_2.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sketch_3.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sketch_4.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sketch_1.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sketch_2.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sketch_3.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sketch_4.webp", caption: "" },
         ],
       },
       {
@@ -438,11 +438,11 @@ const CASE_STUDIES = [
         color: "#ff3e3e",
         content: "Sketches fed into wireframes, then progressively higher-fidelity designs in Figma, culminating in a clickable prototype we tested with clients and internal client managers. That feedback drove a significant iteration cycle before handing refined specs to the development team, who built a live prototype for further testing ahead of an MVP release to a select group of clients.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_balsamiq_1.webp", caption: "Balsamiq Wireframe" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_balsamiq_2.webp", caption: "Balsamiq Wireframe" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_wire_1.webp", caption: "Study builder lo-fi UI" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_wire_3.webp", caption: "Assessment page lo-fi UI" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_wall.webp", caption: "Information architecture planning" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_balsamiq_1.webp", caption: "Balsamiq Wireframe" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_balsamiq_2.webp", caption: "Balsamiq Wireframe" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_wire_1.webp", caption: "Study builder lo-fi UI" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_wire_3.webp", caption: "Assessment page lo-fi UI" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_wall.webp", caption: "Information architecture planning" },
         ],
       },
       {
@@ -456,10 +456,10 @@ const CASE_STUDIES = [
     outcome: {
       summary: "Client and internal feedback has been consistently positive since launch. Clinical evaluators found the new structure significantly faster and less error-prone, and account managers training clients noted how intuitive it feels in practice, with less need for explanation. Sponsors responded well to the increased consistency in how data was structured. The MVP has been iterated on continuously since release. Reporting and the companion app (the original catalyst for the project) are both now in active development, made possible by the consistent data structure the redesign put in place. The foundation is built; the full vision is being realised.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sites_1.webp", caption: "Subject list page" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sites_2.webp", caption: "Assessment data entry" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sites_3.webp", caption: "Assessment page" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_sites_4.webp", caption: "Mobile responsiveness with dev notes" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sites_1.webp", caption: "Subject list page" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sites_2.webp", caption: "Assessment data entry" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sites_3.webp", caption: "Assessment page" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_sites_4.webp", caption: "Mobile responsiveness with dev notes" },
       ],
       stat: {
         value: "81%",
@@ -503,7 +503,7 @@ const CASE_STUDIES = [
     challenge: {
       text: "ChilliPharm serves a complex ecosystem of users — clinical evaluators filming assessments, QC reviewers checking footage, sponsors monitoring trial progress, compliance teams auditing activity, and internal video services handling redaction and editing. Each group had a different relationship with the platform, and each team within ChilliPharm had a siloed understanding of how their piece of the product worked. As the product prepared for its most significant overhaul to date, that gap needed closing — not just for design’s benefit, but across the entire business.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_workflows.webp", caption: "User workflows — Clinical Evaluator, QC Reviewer, Video Services" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_workflows.webp", caption: "User workflows — Clinical Evaluator, QC Reviewer, Video Services" },
       ],
     },
     approach: [
@@ -513,8 +513,8 @@ const CASE_STUDIES = [
         color: "#2563EB",
         content: "Working alongside colleagues, we facilitated workshops and one-to-one interviews with stakeholders from across the business — Account Management, Video Services, Compliance, and Product — as well as gathering insight from external users including clinical evaluators and reviewers. For each user segment we worked through Value Proposition Canvases, mapping gains, pains, and jobs to be done. This gave us a structured way to surface what each group actually needed from the platform, rather than what we assumed they needed.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_vp_inflight.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_vp_setup.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_vp_inflight.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_vp_setup.webp", caption: "" },
         ],
       },
       {
@@ -523,8 +523,8 @@ const CASE_STUDIES = [
         color: "#7C3AED",
         content: "The interview and workshop findings were synthesised into a set of detailed user personas and pen portraits covering all user types — both the external users interacting with the platform directly and the internal teams whose work depends on it. Having these as tangible, visual artefacts gave the whole business a shared language for talking about users for the first time.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_personas.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_pen_portraits.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_personas.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_pen_portraits.webp", caption: "" },
         ],
       },
       {
@@ -533,8 +533,8 @@ const CASE_STUDIES = [
         color: "#ff3e3e",
         content: "The personas and value propositions fed into a suite of strategic outputs: a full product customer experience map spanning the trial lifecycle from Set Up through Inflight to Completion, user workflow diagrams for each key role, a product site map with UX debt annotated, and an SDLC process map aligning design phases with development. These artefacts were printed and pinned to a visible wall in the office — and something unexpected happened. Colleagues from across the business stopped to look, asked questions, and engaged with the work in a way that rarely happens with a Figma file. That visibility created real cross-functional buy-in.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_sitemap.webp", caption: "" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_sdlc.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_sitemap.webp", caption: "" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_sdlc.webp", caption: "" },
         ],
       },
       {
@@ -548,8 +548,8 @@ const CASE_STUDIES = [
     outcome: {
       summary: "Beyond the artefacts themselves, the most rewarding part of this project was seeing what happens when you make invisible complexity visible. People who had never thought of themselves as stakeholders in a UX process became engaged, curious, and — crucially — aligned. That alignment is what makes a product overhaul possible.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_hero.webp", caption: "Workshop wall — service mapping in progress" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_cx_map.webp", caption: "Product customer experience map — Set Up to Completion" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_hero.webp", caption: "Workshop wall — service mapping in progress" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_cx_map.webp", caption: "Product customer experience map — Set Up to Completion" },
       ],
       quotes: [
         { text: "This is the type of information we need to better identify our priorities and where we can bring the most value and cut frustration.", attribution: "Lead Developer, ChilliPharm" },
@@ -575,8 +575,8 @@ const CASE_STUDIES = [
     challenge: {
       text: "The Momentum Energy website allowed users to compare electricity and gas plans through a tab-based selector, but the default tab was always electricity, meaning gas was hidden one click away. For users who didn’t think to switch tabs, gas plans were effectively invisible. The result was a measurable gap in gas sign-ups relative to electricity, despite gas being a core part of the product offering. The tab design also created a secondary problem: users who wanted both electricity and gas — dual fuel — had to navigate between tabs to select them, with no clear visual indication that this was even possible. The interface wasn’t reflecting the reality of what Momentum offered. A targeted fix was needed first; but as the problem was explored, it became clear that the plan selector was only one symptom of a broader UX debt across the site — one that would eventually require a ground-up redesign.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_original.webp", caption: "The original tab-based plan selector" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_mockup.webp", caption: "First proposed fix — highlighting the gas tab and cart button" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_original.webp", caption: "The original tab-based plan selector" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_mockup.webp", caption: "First proposed fix — highlighting the gas tab and cart button" },
       ],
     },
     approach: [
@@ -593,10 +593,10 @@ const CASE_STUDIES = [
         color: "#7C3AED",
         content: "I explored several structural directions through sketching before committing to anything. An initial idea of separate pages for electricity and gas was quickly ruled out — navigating users away from the plan view risked losing them entirely. I also explored consolidating secondary options like daily usage and e-bill upload into a collapsible section, both to save screen real estate and to surface the plan tiles higher on the page, particularly on mobile where they were falling below the fold entirely.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_sketch_1.webp", caption: "Sketch 1 — separate pages option" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_sketch_2.webp", caption: "Sketch 2 — plan tile improvements" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_sketch_3.webp", caption: "Sketch 3 — consolidating the e-bill option" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_sketch_4.webp", caption: "Sketch 4 — solar separation consideration" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_sketch_1.webp", caption: "Sketch 1 — separate pages option" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_sketch_2.webp", caption: "Sketch 2 — plan tile improvements" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_sketch_3.webp", caption: "Sketch 3 — consolidating the e-bill option" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_sketch_4.webp", caption: "Sketch 4 — solar separation consideration" },
         ],
       },
       {
@@ -605,9 +605,9 @@ const CASE_STUDIES = [
         color: "#ff3e3e",
         content: "My proposed solution replaced the tab system with toggle-style radio buttons, making electricity and gas simultaneously visible and independently selectable. I also identified improvements to the plan tiles — bonus information was duplicated and inconsistently labelled, and the fees dropdown read as a warning when it was actually a benefit. I produced a mockup of an interim fix alongside the fuller redesign concept, with a recommendation for split testing to isolate the cause of the drop-off. This work fed into the wider redesign in collaboration with MASS, where I participated in user testing sessions, contributed to sketching and high-fidelity design, and led the rationalisation of the type scale — condensing a fragmented hierarchy of similar sizes into a coherent, lean system.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_refine_1.webp", caption: "Sketch 5 — mobile consolidation" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_refine_2.webp", caption: "Sketch 6 — expandable section functionality" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_main_solution.webp", caption: "Main solution — toggle-style plan selector" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_refine_1.webp", caption: "Sketch 5 — mobile consolidation" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_refine_2.webp", caption: "Sketch 6 — expandable section functionality" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_main_solution.webp", caption: "Main solution — toggle-style plan selector" },
         ],
       },
       {
@@ -621,8 +621,8 @@ const CASE_STUDIES = [
     outcome: {
       summary: "The redesigned website launched and became central to the business’s growth over the following two years. Working in residency at MASS was formative — the experience of collaborative user testing, structured feedback sessions, and high-fidelity design at agency pace shaped how I approach UX work to this day. The project also reinforced something I’ve carried forward: that the most impactful design decisions are often the smallest ones. Replacing a tab with a toggle, surfacing a hidden option, removing a confusing label — these are the changes that move conversion metrics.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_hero_1.webp", caption: "Redesigned website — mobile and desktop" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_hero_2.webp", caption: "Redesigned energy plans page" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_hero_1.webp", caption: "Redesigned website — mobile and desktop" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_hero_2.webp", caption: "Redesigned energy plans page" },
       ],
       quotes: [],
     },
@@ -645,8 +645,8 @@ const CASE_STUDIES = [
     challenge: {
       text: "Vertu's existing UI had been built on KitKat — skeuomorphic, gradient-heavy, and visually busy. Glossy buttons, realistic textures and dividing lines everywhere made it feel dated and inconsistent. For a brand where the hardware was hand-stitched and built from luxury materials, the software wasn't keeping up. The challenge was threefold: adopt Material Design principles without losing the brand's premium character; ensure consistency across a complex suite of apps (Vertu Life, Vertu Care, Concierge, Camera, Dolby Audio, volume control); and produce specifications precise enough for developers to build from — all while learning the craft of UX design in my first dedicated role.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_comp_1.webp", caption: "Vertu Care — KitKat vs Lollipop", annotations: ["I pushed through a new highlight colour to steer the UI away from KitKat associations.", "In my design, the FAB button would expand on tap to reveal the options for contact, condensing and simplifying the interface."] },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_comp_2.webp", caption: "Navigation menu — KitKat vs Lollipop", annotations: ["Once the side menu icon is tapped it will change into an icon mirroring the back navigation button.", "I redesigned the icons to be more simple, solid and consistent, and work better as a block element.", "Colours of UI in line with the newly written style guide — here they give a clearer definition between the content and the menu bar.", "A more defined hierarchy between the UI elements. Title bar stays on top, next is the menu bar and least importantly the original content, dimmed. The page content stays locked in its position rather than shifting with the menu."] },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_comp_1.webp", caption: "Vertu Care — KitKat vs Lollipop", annotations: ["I pushed through a new highlight colour to steer the UI away from KitKat associations.", "In my design, the FAB button would expand on tap to reveal the options for contact, condensing and simplifying the interface."] },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_comp_2.webp", caption: "Navigation menu — KitKat vs Lollipop", annotations: ["Once the side menu icon is tapped it will change into an icon mirroring the back navigation button.", "I redesigned the icons to be more simple, solid and consistent, and work better as a block element.", "Colours of UI in line with the newly written style guide — here they give a clearer definition between the content and the menu bar.", "A more defined hierarchy between the UI elements. Title bar stays on top, next is the menu bar and least importantly the original content, dimmed. The page content stays locked in its position rather than shifting with the menu."] },
       ],
     },
     approach: [
@@ -663,10 +663,10 @@ const CASE_STUDIES = [
         color: "#7C3AED",
         content: "The core design decision was subtraction and simplification. Gradients out, dividing lines removed where users already understood the affordance. Icons redrawn to be solid, flat and consistent rather than realistic and decorative. A new highlight colour introduced to steer the UI away from KitKat associations. Each decision was about reducing visual noise while maintaining the premium feel the brand demanded.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_screen_1.webp", caption: "", annotations: ["I used opacity panels rather than gradients — they maintain the integrity of the image and are a more consistent way to define text.", "Information is concentrated into one section, clarifying the interface."] },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_screen_2.webp", caption: "", annotations: ["A new style, showing events as a calendar view, making it easier for the user to see what's coming up in their interests.", "Date headings stay as part of the background until scrolled to the top, where they bump the previous month out, stick to the title bar and become a separate element. Content then scrolls underneath."] },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_screen_3.webp", caption: "", annotations: ["Icons are flattened, gradients removed.", "Dividing lines are removed — users understand these are buttons without them.", "Text is reduced in size to be more aligned with the elegant feel of the brand and in keeping with the style guide."] },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_screen_4.webp", caption: "", annotations: ["In keeping with the new style of Lollipop, I flattened the elements out and defined hierarchy with sharper shadows. Out with the skeuomorphism, in with the material.", "This element appears when the user touches the volume keys or presses the bell in the centre of the dial. It's modelled closely off the original Lollipop design, but the layout and colours had to be redesigned to fit with the other elements on screen.", "Defining areas of content, with the volume toggle icons in the centre."] },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_screen_1.webp", caption: "", annotations: ["I used opacity panels rather than gradients — they maintain the integrity of the image and are a more consistent way to define text.", "Information is concentrated into one section, clarifying the interface."] },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_screen_2.webp", caption: "", annotations: ["A new style, showing events as a calendar view, making it easier for the user to see what's coming up in their interests.", "Date headings stay as part of the background until scrolled to the top, where they bump the previous month out, stick to the title bar and become a separate element. Content then scrolls underneath."] },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_screen_3.webp", caption: "", annotations: ["Icons are flattened, gradients removed.", "Dividing lines are removed — users understand these are buttons without them.", "Text is reduced in size to be more aligned with the elegant feel of the brand and in keeping with the style guide."] },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_screen_4.webp", caption: "", annotations: ["In keeping with the new style of Lollipop, I flattened the elements out and defined hierarchy with sharper shadows. Out with the skeuomorphism, in with the material.", "This element appears when the user touches the volume keys or presses the bell in the centre of the dial. It's modelled closely off the original Lollipop design, but the layout and colours had to be redesigned to fit with the other elements on screen.", "Defining areas of content, with the volume toggle icons in the centre."] },
         ],
       },
       {
@@ -675,9 +675,9 @@ const CASE_STUDIES = [
         color: "#ff3e3e",
         content: "I worked across six app areas — Vertu Life, Vertu Care, Concierge, Camera, Dolby Audio and volume control — producing Photoshop mockups, icon designs and UI elements. I contributed to writing the style guide from scratch in collaboration with my senior designer, and produced detailed design specifications in Visio, calculating exact dp measurements for every element to hand to the development team.",
         images: [
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_result_1.webp", caption: "Camera app" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_result_2.webp", caption: "Camera button states" },
-          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_result_3.webp", caption: "Design specifications", annotations: ["For all the designs, icons and elements I had to draw up specifications for the developers using Visio. At first I found it tedious and painstaking, but I grew to appreciate the calculation and precision required in this work — it appealed to my desire for perfection in layout."] },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_result_1.webp", caption: "Camera app" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_result_2.webp", caption: "Camera button states" },
+          { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_result_3.webp", caption: "Design specifications", annotations: ["For all the designs, icons and elements I had to draw up specifications for the developers using Visio. At first I found it tedious and painstaking, but I grew to appreciate the calculation and precision required in this work — it appealed to my desire for perfection in layout."] },
         ],
       },
       {
@@ -691,8 +691,8 @@ const CASE_STUDIES = [
     outcome: {
       summary: "The redesigned UI shipped across the full suite of Vertu apps, bringing a consistent Material Design aesthetic to a product where the bar for quality was exceptionally high. The style guide I co-wrote became the reference point for design decisions across the team. I also designed the clock face and wallpaper collection for the Elena handset. Working at this level of precision in my first UX role gave me a foundation I have drawn on ever since. Vertu was also where I first understood that design isn't just about how something looks — the hardware was extraordinary, my job was to make sure the software deserved to be on the same device.",
       images: [
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_elena.webp", caption: "Elena handset" },
-        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_hero.webp", caption: "Vertu Constellation range" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_elena.webp", caption: "Elena handset" },
+        { src: "https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_hero.webp", caption: "Vertu Constellation range" },
       ],
       quotes: [],
     },
@@ -779,19 +779,19 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           {/* Hero image — real if available, placeholder otherwise */}
           {study.heroImage === "chillipharm" ? (
             <div style={{ width: "100%", marginBottom: "1.8rem", borderRadius: 8, overflow: "hidden", border: `1.5px solid ${study.accent}22` }}>
-              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_hero.webp"} alt="ChilliPharm platform — assessment view" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_hero.webp"} alt="ChilliPharm platform — assessment view" style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
           ) : study.heroImage === "vertu" ? (
             <div style={{ width: "100%", marginBottom: "1.8rem", borderRadius: 8, overflow: "hidden", border: `1.5px solid ${study.accent}22` }}>
-              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_hero.webp"} alt="Vertu Constellation luxury Android phones" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_hero.webp"} alt="Vertu Constellation luxury Android phones" style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
           ) : study.heroImage === "momentum" ? (
             <div style={{ width: "100%", marginBottom: "1.8rem", borderRadius: 8, overflow: "hidden", border: `1.5px solid ${study.accent}22` }}>
-              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_hero_1.webp"} alt="Momentum Energy redesigned website" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_hero_1.webp"} alt="Momentum Energy redesigned website" style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
           ) : study.heroImage === "strategy" ? (
             <div style={{ width: "100%", marginBottom: "1.8rem", borderRadius: 8, overflow: "hidden", border: `1.5px solid ${study.accent}22` }}>
-              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_hero.webp"} alt="ChilliPharm service design workshop" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_hero.webp"} alt="ChilliPharm service design workshop" style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
           ) : (
             <div style={{ width: "100%", height: 200, background: study.thumbBg, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.8rem", border: `1.5px solid ${study.accent}22`, fontSize: "3.5rem", opacity: 0.6 }}>
@@ -1060,13 +1060,13 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
                   >
                     <div style={{ width: 52, height: 36, borderRadius: 5, overflow: "hidden", background: s.thumbBg, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem", border: "1.5px solid " + s.accent + "22" }}>
                       {s.heroImage === "chillipharm" ? (
-                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       ) : s.heroImage === "vertu" ? (
-                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       ) : s.heroImage === "momentum" ? (
-                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       ) : s.heroImage === "strategy" ? (
-                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_thumb.webp"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       ) : (
                         <span style={{ opacity: 0.5 }}>{s.thumbIcon}</span>
                       )}
@@ -1535,7 +1535,7 @@ export default function Portfolio() {
                 background: "#FAFAF8",
               }}>
                 <img
-                  src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/photo.jpg"}
+                  src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/photo.jpg"}
                   alt="Jess Dams"
                   style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 15%", display: "block" }}
                 />
@@ -1922,13 +1922,13 @@ export default function Portfolio() {
                   {/* Thumbnail placeholder */}
                   <div className="work-card-thumb" style={{ background: study.thumbBg }}>
                     {study.heroImage === "chillipharm" ? (
-                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/chilli_thumb.webp"} alt="ChilliPharm platform" />
+                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/chilli_thumb.webp"} alt="ChilliPharm platform" />
                     ) : study.heroImage === "vertu" ? (
-                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/vertu_thumb.webp"} alt="Vertu luxury Android phones" />
+                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/vertu_thumb.webp"} alt="Vertu luxury Android phones" />
                     ) : study.heroImage === "momentum" ? (
-                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/momentum_thumb.webp"} alt="Momentum Energy website" />
+                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/momentum_thumb.webp"} alt="Momentum Energy website" />
                     ) : study.heroImage === "strategy" ? (
-                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/portfolio/strategy_thumb.webp"} alt="ChilliPharm service design" />
+                      <img src={"https://res.cloudinary.com/ddh2w4p8x/image/upload/strategy_thumb.webp"} alt="ChilliPharm service design" />
                     ) : (
                       <span style={{ fontSize: "3.2rem", opacity: 0.5 }}>{study.thumbIcon}</span>
                     )}

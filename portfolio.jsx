@@ -1456,7 +1456,7 @@ export default function Portfolio() {
       `}</style>
 
       {/* ── NAV ── */}
-      <nav aria-label="Main navigation" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 200, background: scrolled || mobileOpen ? "rgba(250,250,248,0.97)" : "transparent", backdropFilter: scrolled || mobileOpen ? "blur(14px)" : "none", borderBottom: scrolled ? "1px solid #e8e8e2" : "none", transition: "background 0.3s ease, border-color 0.3s ease", padding: "0 2rem" }}>
+      <nav aria-label="Main navigation" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 200, background: scrolled || mobileOpen ? "rgba(250,250,248,0.97)" : "transparent", backdropFilter: scrolled || mobileOpen ? "blur(14px)" : "none", borderBottom: `1px solid ${scrolled ? "#e8e8e2" : "transparent"}`, transition: "background 0.3s ease, border-color 0.3s ease", padding: "0 2rem" }}>
         <div style={{ maxWidth: 1080, margin: "0 auto", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {/* Logo */}
           <button type="button" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMobileOpen(false); }} style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'DM Serif Display', serif", fontWeight: 300, fontSize: "1.05rem", color: "#1a1a1a", zIndex: 201 }}>

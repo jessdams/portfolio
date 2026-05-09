@@ -1466,7 +1466,7 @@ export default function Portfolio() {
           {/* Desktop links */}
           <div className="desktop-nav" style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
             {["About", "Process", "Experience", "AI Tools", "Work", "Testimonials"].map(l => (
-              <span key={l} className="nav-link" onClick={() => scrollTo(l.toLowerCase())}>{l}</span>
+              <span key={l} className="nav-link" onClick={() => scrollTo(l.toLowerCase().replace(/ /g, "-"))}>{l}</span>
             ))}
             <button type="button" className="hire-btn" onClick={() => scrollTo("contact")}>Contact</button>
           </div>

@@ -806,7 +806,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
                 <span key={i} style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.06em", padding: "0.25rem 0.65rem", borderRadius: 999, background: `${study.tagColors[i]}18`, color: study.tagColors[i] }}>{tag}</span>
               ))}
             </div>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", lineHeight: 1.15, letterSpacing: "-0.015em", color: "#1a1a1a", marginBottom: "0.4rem" }}>{study.title}</h2>
+            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(1.5rem, 3vw, 2rem)", lineHeight: 1.15, letterSpacing: "-0.015em", color: "#1a1a1a", marginBottom: "0.4rem" }}>{study.title}</h2>
             <p style={{ fontSize: "0.8rem", color: study.accent, fontWeight: 500 }}>{study.company} <span style={{ color: "#bbb", fontWeight: 400 }}>· {study.role} · {study.year}</span></p>
           </div>
 
@@ -817,7 +817,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           <div style={{ marginBottom: "2rem" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.85rem" }}>
               <div style={{ width: 3, height: 20, borderRadius: 2, background: "#DC2626", flexShrink: 0 }} />
-              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>The Challenge</p>
+              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>The Challenge</p>
             </div>
             {typeof study.challenge === "object" ? (
               <div>
@@ -890,7 +890,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           <div style={{ marginBottom: "2rem" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "1.1rem" }}>
               <div style={{ width: 3, height: 20, borderRadius: 2, background: study.accent, flexShrink: 0 }} />
-              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>My Approach</p>
+              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>My Approach</p>
             </div>
             {Array.isArray(study.approach) ? (
               <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
@@ -907,7 +907,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
                     </div>
                     {/* Step content */}
                     <div style={{ flex: 1, paddingBottom: i < study.approach.length - 1 ? "0.5rem" : 0 }}>
-                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "0.93rem", color: step.color, marginBottom: "0.35rem" }}>{step.stage}</p>
+                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "0.93rem", color: step.color, marginBottom: "0.35rem" }}>{step.stage}</p>
                       <p style={{ fontSize: "0.93rem", lineHeight: 1.72, color: "#555", fontWeight: 300, marginBottom: step.images && step.images.length > 0 ? "0.85rem" : 0 }}>{step.content}</p>
                       {/* Thumbnail strip — only renders when images are present */}
                       {step.images && step.images.length > 0 && (
@@ -939,7 +939,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           <div style={{ marginBottom: "2rem" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.85rem" }}>
               <div style={{ width: 3, height: 20, borderRadius: 2, background: "#2563EB", flexShrink: 0 }} />
-              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>The Outcome</p>
+              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.1rem", color: "#1a1a1a", fontStyle: "italic" }}>The Outcome</p>
             </div>
             {typeof study.outcome === "object" ? (
               <div>
@@ -1007,7 +1007,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
                 {study.outcome.stat && (
                   <div style={{ marginBottom: "1.4rem" }}>
                     <div style={{ display: "inline-flex", alignItems: "center", gap: "1rem", background: "#2563EB10", border: "1.5px solid #2563EB30", borderRadius: 8, padding: "0.9rem 1.4rem" }}>
-                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "2rem", color: "#2563EB", lineHeight: 1 }}>{study.outcome.stat.value}</p>
+                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "2rem", color: "#2563EB", lineHeight: 1 }}>{study.outcome.stat.value}</p>
                       <p style={{ fontSize: "0.78rem", color: "#555", fontWeight: 300, maxWidth: 200, lineHeight: 1.5 }}>{study.outcome.stat.label}</p>
                       {study.outcome.stat.methodology && (
                         <button type="button"
@@ -1032,7 +1032,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
                   <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
                     {study.outcome.quotes.map((q, i) => (
                       <div key={i} style={{ borderLeft: "3px solid #2563EB44", paddingLeft: "1rem", paddingTop: "0.1rem", paddingBottom: "0.1rem" }}>
-                        <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "0.93rem", fontStyle: "italic", color: "#333", lineHeight: 1.65, marginBottom: "0.3rem" }}>"{q.text}"</p>
+                        <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "0.93rem", fontStyle: "italic", color: "#333", lineHeight: 1.65, marginBottom: "0.3rem" }}>"{q.text}"</p>
                         <p style={{ fontSize: "0.72rem", color: "#2563EB", fontWeight: 500, letterSpacing: "0.03em" }}>— {q.attribution}</p>
                       </div>
                     ))}
@@ -1094,7 +1094,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
             <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: "1.2rem" }}>
               <div>
                 <div style={{ width: 3, height: 18, background: "#2563EB", borderRadius: 2, display: "inline-block", marginRight: "0.6rem", verticalAlign: "middle" }} />
-                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.05rem", fontStyle: "italic", color: "#1a1a1a", display: "inline" }}>{study.outcome.stat.methodology.headline}</p>
+                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.05rem", fontStyle: "italic", color: "#1a1a1a", display: "inline" }}>{study.outcome.stat.methodology.headline}</p>
               </div>
               <button type="button" onClick={() => setShowMethodology(false)} aria-label="Close methodology" style={{ width: 44, height: 44, borderRadius: "50%", border: "1.5px solid #e5e5e0", background: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "all 0.15s" }}
                 onMouseEnter={e => { e.currentTarget.style.background = "#2563EB"; e.currentTarget.style.borderColor = "#2563EB"; e.currentTarget.style.color = "white"; }}
@@ -1107,7 +1107,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
               {study.outcome.stat.methodology.stats.map((s, i) => (
                 <div key={i} style={{ background: "white", border: "1.5px solid #eeeee8", borderRadius: 6, padding: "0.7rem 0.9rem" }}>
                   <p style={{ fontSize: "0.68rem", color: "#aaa", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: "0.2rem" }}>{s.label}</p>
-                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.1rem", color: "#2563EB" }}>{s.value}</p>
+                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.1rem", color: "#2563EB" }}>{s.value}</p>
                 </div>
               ))}
             </div>
@@ -1245,7 +1245,7 @@ function ExperienceAccordion() {
               <div style={{ width: 12, height: 12, borderRadius: "50%", background: era.accentColor, flexShrink: 0, boxShadow: isOpen ? `0 0 0 4px ${era.accentColor}22` : "none", transition: "box-shadow 0.3s" }} />
               <div style={{ flex: 1 }}>
                 <div style={{ display: "flex", alignItems: "baseline", gap: "0.75rem", flexWrap: "wrap" }}>
-                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.05rem", color: isOpen ? era.accentColor : "#1a1a1a", fontStyle: isOpen ? "italic" : "normal", transition: "color 0.25s, font-style 0.25s" }}>{era.era}</p>
+                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.05rem", color: isOpen ? era.accentColor : "#1a1a1a", fontStyle: isOpen ? "italic" : "normal", transition: "color 0.25s, font-style 0.25s" }}>{era.era}</p>
                   <span style={{ fontSize: "0.72rem", fontWeight: 600, letterSpacing: "0.08em", color: "#aaa" }}>{era.range}</span>
                 </div>
                 <p style={{ fontSize: "0.78rem", color: "#767676", marginTop: "0.15rem", fontWeight: 300 }}>{era.summary}</p>
@@ -1458,7 +1458,7 @@ export default function Portfolio() {
       <nav aria-label="Main navigation" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 200, background: scrolled || mobileOpen ? "rgba(250,250,248,0.97)" : "transparent", backdropFilter: scrolled || mobileOpen ? "blur(14px)" : "none", borderBottom: scrolled ? "1px solid #e8e8e2" : "none", transition: "background 0.3s ease, border-color 0.3s ease", padding: "0 2rem" }}>
         <div style={{ maxWidth: 1080, margin: "0 auto", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {/* Logo */}
-          <button type="button" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMobileOpen(false); }} style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'Cormorant Garamond', serif", fontSize: "1.05rem", color: "#1a1a1a", zIndex: 201 }}>
+          <button type="button" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMobileOpen(false); }} style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.05rem", color: "#1a1a1a", zIndex: 201 }}>
             Jess Dams
           </button>
 
@@ -1552,7 +1552,7 @@ export default function Portfolio() {
             <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#ff3e3e14", border: "1px solid #ff3e3e44", borderRadius: 999, padding: "0.3rem 0.9rem", marginBottom: "1.1rem" }}>
               <span style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#ff3e3e" }}>✦ AI-Informed Designer</span>
             </div>
-            <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(3rem, 6vw, 5.4rem)", lineHeight: 1.02, letterSpacing: "-0.025em", marginBottom: "1.5rem" }}>
+            <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(3rem, 6vw, 5.4rem)", lineHeight: 1.02, letterSpacing: "-0.025em", marginBottom: "1.5rem" }}>
               <span className="hero-firstname">Jess </span><span style={{ fontStyle: "italic", color: "#2563EB" }}>Dams</span>
             </h1>
             <p style={{ fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.14em", textTransform: "uppercase", color: "#7C3AED", marginBottom: "1rem" }}>
@@ -1601,7 +1601,7 @@ export default function Portfolio() {
           <div style={{ flex: 1 }}>
             <FadeIn>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#7C3AED", marginBottom: "0.7rem" }}>About Me</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em" }}>
                 Designing for <em style={{ color: "#2563EB" }}>people</em>,<br />directed by <em style={{ color: "#ff3e3e" }}>judgement</em>
               </h2>
               <div className="divider" style={{ background: "#2563EB" }} />
@@ -1636,7 +1636,7 @@ export default function Portfolio() {
                 <div className="stat-card" style={{ borderLeft: `4px solid ${s.color}` }}
                   onMouseEnter={e => { e.currentTarget.style.boxShadow = `0 6px 22px ${s.color}22`; }}
                   onMouseLeave={e => { e.currentTarget.style.boxShadow = "none"; }}>
-                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.85rem", color: s.color, lineHeight: 1 }}>{s.num}</p>
+                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.85rem", color: s.color, lineHeight: 1 }}>{s.num}</p>
                   <p style={{ fontSize: "0.78rem", color: "#666", marginTop: "0.28rem" }}>{s.label}</p>
                 </div>
               </FadeIn>
@@ -1654,7 +1654,7 @@ export default function Portfolio() {
           <FadeIn>
             <div style={{ marginBottom: "4rem", textAlign: "center" }}>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#7C3AED", marginBottom: "0.7rem" }}>How I Work</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
                 My design <em style={{ color: "#2563EB" }}>process</em>
               </h2>
             </div>
@@ -1801,7 +1801,7 @@ export default function Portfolio() {
                     {/* Stage number + name */}
                     <div style={{ marginBottom: "0.6rem" }}>
                       <span style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.18em", color: step.color, display: "block", marginBottom: "0.2rem" }}>{step.number}</span>
-                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.25rem", color: "#1a1a1a", lineHeight: 1.2 }}>{step.stage}</p>
+                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.25rem", color: "#1a1a1a", lineHeight: 1.2 }}>{step.stage}</p>
                     </div>
 
                     {/* What happens */}
@@ -1809,7 +1809,7 @@ export default function Portfolio() {
 
                     {/* Philosophy quote */}
                     <div style={{ borderLeft: `3px solid ${step.color}`, paddingLeft: "0.85rem" }}>
-                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "0.85rem", fontStyle: "italic", color: "#444", lineHeight: 1.65 }}>{step.principle}</p>
+                      <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "0.85rem", fontStyle: "italic", color: "#444", lineHeight: 1.65 }}>{step.principle}</p>
                     </div>
                   </div>
                 </div>
@@ -1825,7 +1825,7 @@ export default function Portfolio() {
           <FadeIn>
             <div style={{ marginBottom: "3.5rem", textAlign: "center" }}>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#2563EB", marginBottom: "0.7rem" }}>Career</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
                 Where I've <em style={{ color: "#7C3AED" }}>worked</em>
               </h2>
               <p style={{ fontSize: "0.93rem", color: "#767676", fontWeight: 300, marginTop: "0.8rem", textAlign: "center" }}>Click any chapter to explore the detail.</p>
@@ -1860,7 +1860,7 @@ export default function Portfolio() {
           <FadeIn>
             <div style={{ marginBottom: "3.5rem", textAlign: "center" }}>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ff3e3e", marginBottom: "0.7rem" }}>AI Toolkit</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
                 Tools I use to <em style={{ color: "#ff3e3e" }}>work smarter</em>
               </h2>
               <p style={{ fontSize: "0.93rem", color: "#666", fontWeight: 300, marginTop: "1rem", maxWidth: 520, margin: "1rem auto 0", textAlign: "center" }}>
@@ -1897,7 +1897,7 @@ export default function Portfolio() {
           <FadeIn>
             <div style={{ marginBottom: "3.5rem", textAlign: "center" }}>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#DC2626", marginBottom: "0.7rem" }}>Selected Work</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
                 Things I've <em style={{ color: "#2563EB" }}>built</em>
               </h2>
               <p style={{ fontSize: "0.93rem", color: "#767676", fontWeight: 300, marginTop: "0.8rem", textAlign: "center" }}>
@@ -1968,7 +1968,7 @@ export default function Portfolio() {
           <FadeIn>
             <div style={{ marginBottom: "4rem", textAlign: "center" }}>
               <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#059669", marginBottom: "0.7rem" }}>Social Proof</p>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2rem, 3.8vw, 3.1rem)", lineHeight: 1.1, letterSpacing: "-0.015em", textAlign: "center" }}>
                 What colleagues <em style={{ color: "#2563EB" }}>say</em>
               </h2>
               <p style={{ fontSize: "0.93rem", color: "#666", fontWeight: 300, marginTop: "0.9rem", maxWidth: 480, margin: "0.9rem auto 0", textAlign: "center" }}>
@@ -1980,8 +1980,8 @@ export default function Portfolio() {
           {/* Featured quote — largest, most authoritative (boss quote) */}
           <FadeIn delay={0.05}>
             <div style={{ marginBottom: "1.1rem", padding: "2.4rem 2.8rem", background: "linear-gradient(135deg, #2563EB08, #7C3AED0d)", border: "1.5px solid #2563EB22", borderRadius: 8, borderLeft: "5px solid #2563EB", position: "relative" }}>
-              <div style={{ position: "absolute", top: "1.6rem", right: "2rem", fontFamily: "'Cormorant Garamond', serif", fontSize: "5rem", lineHeight: 1, color: "#2563EB", opacity: 0.12, userSelect: "none" }}>"</div>
-              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(1.05rem, 2vw, 1.25rem)", lineHeight: 1.7, color: "#222", fontStyle: "italic", maxWidth: 820, marginBottom: "1.4rem" }}>
+              <div style={{ position: "absolute", top: "1.6rem", right: "2rem", fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "5rem", lineHeight: 1, color: "#2563EB", opacity: 0.12, userSelect: "none" }}>"</div>
+              <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(1.05rem, 2vw, 1.25rem)", lineHeight: 1.7, color: "#222", fontStyle: "italic", maxWidth: 820, marginBottom: "1.4rem" }}>
                 "{TESTIMONIALS[1].quote}"
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: "0.85rem" }}>
@@ -2007,7 +2007,7 @@ export default function Portfolio() {
                   {/* Top colour accent line */}
                   <div style={{ height: 3, background: `linear-gradient(90deg, ${t.color}, ${t.color}44)`, borderRadius: 2, marginBottom: "0.2rem" }} />
                   {/* Opening quote mark */}
-                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "2.2rem", lineHeight: 1, color: t.color, opacity: 0.25, marginBottom: "-0.6rem", userSelect: "none" }}>"</p>
+                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "2.2rem", lineHeight: 1, color: t.color, opacity: 0.25, marginBottom: "-0.6rem", userSelect: "none" }}>"</p>
                   <p style={{ fontSize: "0.85rem", lineHeight: 1.72, color: "#3a3a3a", fontStyle: "italic", flex: 1 }}>
                     "{t.quote}"
                   </p>
@@ -2044,7 +2044,7 @@ export default function Portfolio() {
                     <rect x="2" y="18" width="11" height="20" rx="2" stroke="white" strokeWidth="2.2" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.1rem", color: "white", lineHeight: 1.4, marginBottom: "0.5rem", fontStyle: "italic" }}>
+                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "1.1rem", color: "white", lineHeight: 1.4, marginBottom: "0.5rem", fontStyle: "italic" }}>
                   More recommendations on LinkedIn
                 </p>
                 <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.6)", marginBottom: "1.3rem", fontWeight: 300 }}>
@@ -2070,7 +2070,7 @@ export default function Portfolio() {
         <div style={{ maxWidth: 640, margin: "0 auto", textAlign: "center", position: "relative" }}>
           <FadeIn>
             <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0891B2", marginBottom: "0.7rem" }}>Get in Touch</p>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(2.2rem, 4.5vw, 3.6rem)", lineHeight: 1.06, letterSpacing: "-0.015em", marginBottom: "1.1rem" }}>
+            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(2.2rem, 4.5vw, 3.6rem)", lineHeight: 1.06, letterSpacing: "-0.015em", marginBottom: "1.1rem" }}>
               Let's build something<br /><em style={{ color: "#7C3AED" }}>worth using</em>
             </h2>
             <p style={{ fontSize: "1rem", lineHeight: 1.75, color: "#555", fontWeight: 300, marginBottom: "3rem" }}>

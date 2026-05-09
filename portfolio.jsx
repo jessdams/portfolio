@@ -1419,6 +1419,7 @@ export default function Portfolio() {
           .hamburger { display: flex !important; }
           .mobile-overlay.open { display: block; }
           .mobile-drawer.open { display: flex; }
+          .scroll-hint { display: none !important; }
         }
         @media (max-width: 820px) {
           .hero-grid { flex-direction: column !important; align-items: flex-start !important; }
@@ -1580,7 +1581,7 @@ export default function Portfolio() {
         </div>
 
         {/* Scroll hint */}
-        <div style={{ position: "absolute", bottom: 28, left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.35rem", opacity: 0.35, animation: "bounce 2.8s ease infinite" }}>
+        <div className="scroll-hint" style={{ position: "absolute", bottom: 28, left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.35rem", opacity: 0.35, animation: "bounce 2.8s ease infinite" }}>
           <span style={{ fontSize: "0.6rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>Scroll</span>
           <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v14M3 11l4 5 4-5" stroke="#1a1a1a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
         </div>
@@ -2099,7 +2100,7 @@ export default function Portfolio() {
               {/* CV Download */}
               <div style={{ width: "100%", maxWidth: 420, marginTop: "0.4rem", paddingTop: "1.2rem", borderTop: "1px solid #eeeee8" }}>
                 <p style={{ fontSize: "0.78rem", color: "#555", fontWeight: 600, marginBottom: "0.75rem", letterSpacing: "0.04em" }}>Prefer something to read offline?</p>
-                <a href="/Jess_Dams_CV_2025.pdf" download="Jess_Dams_CV_2025.pdf"
+                <a href="/Jess_Dams_CV_2026.pdf" download="Jess_Dams_CV_2026.pdf"
                   style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#ff3e3e", color: "white", padding: "0.8rem 1.8rem", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.07em", textTransform: "uppercase", borderRadius: 4, textDecoration: "none", transition: "background 0.2s, transform 0.15s" }}
                   onMouseEnter={e => { e.currentTarget.style.background = "#d42e2e"; e.currentTarget.style.transform = "translateY(-1px)"; }}
                   onMouseLeave={e => { e.currentTarget.style.background = "#ff3e3e"; e.currentTarget.style.transform = "translateY(0)"; }}>

@@ -752,12 +752,12 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           {/* Prev / Next */}
           <div style={{ display: "flex", gap: "0.4rem" }}>
             <button type="button" onClick={onPrev} style={{ width: 44, height: 44, borderRadius: 4, border: "1.5px solid #e5e5e0", background: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transition: "all 0.15s" }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = study.accent; e.currentTarget.style.color = study.accent; }}
+              onMouseEnter={e => { if (window.matchMedia('(hover: hover)').matches) { e.currentTarget.style.borderColor = study.accent; e.currentTarget.style.color = study.accent; }}}
               onMouseLeave={e => { e.currentTarget.style.borderColor = "#e5e5e0"; e.currentTarget.style.color = "#1a1a1a"; }}>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 2L4 7l5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </button>
             <button type="button" onClick={onNext} style={{ width: 44, height: 44, borderRadius: 4, border: "1.5px solid #e5e5e0", background: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transition: "all 0.15s" }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = study.accent; e.currentTarget.style.color = study.accent; }}
+              onMouseEnter={e => { if (window.matchMedia('(hover: hover)').matches) { e.currentTarget.style.borderColor = study.accent; e.currentTarget.style.color = study.accent; }}}
               onMouseLeave={e => { e.currentTarget.style.borderColor = "#e5e5e0"; e.currentTarget.style.color = "#1a1a1a"; }}>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 2l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </button>
@@ -766,7 +766,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           <div style={{ flex: 1 }} />
           {/* Close */}
           <button type="button" onClick={onClose} style={{ width: 44, height: 44, borderRadius: 4, border: "1.5px solid #e5e5e0", background: "white", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transition: "all 0.15s" }}
-            onMouseEnter={e => { e.currentTarget.style.background = "#2563EB"; e.currentTarget.style.borderColor = "#2563EB"; e.currentTarget.style.color = "white"; }}
+            onMouseEnter={e => { if (window.matchMedia('(hover: hover)').matches) { e.currentTarget.style.background = "#2563EB"; e.currentTarget.style.borderColor = "#2563EB"; e.currentTarget.style.color = "white"; }}}
             onMouseLeave={e => { e.currentTarget.style.background = "white"; e.currentTarget.style.borderColor = "#e5e5e0"; e.currentTarget.style.color = "#1a1a1a"; }}>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>
@@ -1173,8 +1173,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
           <div style={{ position: "fixed", bottom: "1.8rem", left: "50%", transform: "translateX(-50%)", zIndex: 402, display: "flex", alignItems: "center", gap: "0.5rem", background: "linear-gradient(135deg, #2563EB, #1d4ed8)", borderRadius: 999, padding: "0.45rem 0.6rem", whiteSpace: "nowrap" }} role="toolbar" aria-label="Image viewer controls">
             {/* Prev */}
             <button type="button" onClick={lightboxPrev} aria-label="Previous image" style={{ width: 34, height: 34, borderRadius: "50%", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.12)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background 0.15s" }}
-              onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.25)"}
-              onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.12)"}>
+>
               <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M8 2L4 6.5l4 4.5" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </button>
 
@@ -1185,8 +1184,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
 
             {/* Next */}
             <button type="button" onClick={lightboxNext} aria-label="Next image" style={{ width: 34, height: 34, borderRadius: "50%", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.12)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background 0.15s" }}
-              onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.25)"}
-              onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.12)"}>
+>
               <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M5 2l4 4.5L5 11" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </button>
 
@@ -1195,8 +1193,7 @@ function WorkPanel({ study, total, onClose, onPrev, onNext }) {
 
             {/* Close */}
             <button type="button" onClick={closeLightbox} aria-label="Close image viewer" style={{ width: 34, height: 34, borderRadius: "50%", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.12)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, transition: "background 0.15s" }}
-              onMouseEnter={e => e.currentTarget.style.background = "rgba(255,255,255,0.25)"}
-              onMouseLeave={e => e.currentTarget.style.background = "rgba(255,255,255,0.12)"}>
+>
               <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1 1l9 9M10 1L1 10" stroke="white" strokeWidth="1.8" strokeLinecap="round"/></svg>
             </button>
           </div>
@@ -1372,6 +1369,9 @@ export default function Portfolio() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+        button, a { -webkit-tap-highlight-color: transparent; }
+        @media (hover: none) { .mob-link:hover { color: inherit !important; } }
+        @media (hover: none) { button:hover { background: inherit !important; } }
         html { scroll-behavior: smooth; }
         body { background: #FAFAF8; }
         .nav-link { position: relative; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #1a1a1a; text-decoration: none; cursor: pointer; transition: color 0.2s; }

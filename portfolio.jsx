@@ -1371,7 +1371,7 @@ export default function Portfolio() {
     <div style={{ fontFamily: "'DM Sans', sans-serif", background: "#FAFAF8", color: "#1a1a1a", minHeight: "100vh" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
         html { scroll-behavior: smooth; }
         body { background: #FAFAF8; }
         .nav-link { position: relative; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #1a1a1a; text-decoration: none; cursor: pointer; transition: color 0.2s; }

@@ -553,7 +553,7 @@ const CASE_STUDIES = [
       ],
       quotes: [
         { text: "This is the type of information we need to better identify our priorities and where we can bring the most value and cut frustration.", attribution: "Lead Developer, ChilliPharm" },
-        // { text: "[Quote placeholder — stakeholder on the value of the workshops]", attribution: "[Name], [Role], ChilliPharm" },
+        { text: "With Video Solutions being such a busy department, it can be difficult to step back and evaluate the team as a whole, as reviews tend to focus mainly on day-to-day details. Using visualisation to map out our processes has provided a valuable opportunity to see the bigger picture and identify areas where we can improve.", attribution: "Head of Video Services, ChilliPharm" },
       ],
     },
     images: [],
